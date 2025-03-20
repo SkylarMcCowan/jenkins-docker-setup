@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<l:dependencies xmlns:l='licenses' groupId='org.jenkins-ci.plugins' artifactId='ssh2easy' version='1.6'><l:dependency name='SSH2 Easy Plugin' groupId='org.jenkins-ci.plugins' artifactId='ssh2easy' version='1.6' url='https://github.com/jenkinsci/ssh2easy-plugin'><l:description>This plugin allows you to ssh2 remote server to execute linux commands, shell, sftp upload, download, etc.</l:description></l:dependency></l:dependencies>

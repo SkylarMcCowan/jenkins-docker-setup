@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.6.0
+Build-Jdk-Spec: 11
+Specification-Title: SSH2 Easy Plugin
+Specification-Version: 1.6
+Implementation-Title: SSH2 Easy Plugin
+Implementation-Version: 1.6
+Group-Id: org.jenkins-ci.plugins
+Artifact-Id: ssh2easy
+Short-Name: ssh2easy
+Long-Name: SSH2 Easy Plugin
+Url: https://github.com/jenkinsci/ssh2easy-plugin
+Plugin-Version: 1.6
+Hudson-Version: 2.387.3
+Jenkins-Version: 2.387.3
+Plugin-Dependencies: jsch:0.2.8-65.v052c39de79b_2,matrix-auth:3.1.10,tri
+ lead-api:2.84.v72119de229b_7
+Plugin-Developers: Jerry Cai:jerrycai:nwwh@qq.com
+Plugin-ScmConnection: scm:git:https://github.com/jenkinsci/ssh2easy-plug
+ in.git
+Plugin-ScmTag: ssh2easy-1.6
+Plugin-ScmUrl: https://github.com/jenkinsci/ssh2easy-plugin
+Plugin-GitHash: c08f62ccff69578e381521cd502cdfb648f94fa9
+Implementation-Build: c08f62ccff69578e381521cd502cdfb648f94fa9
+

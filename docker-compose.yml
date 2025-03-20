@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+  jenkins:
+    container_name: jenkins
+    build: .
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./jenkins_home:/var/jenkins_home
+      - ./remote-key:/tmp/remote-key  # Mount the private SSH key file
+    networks:
+      - net
+
+  remote_host:
+    container_name: remote-host
+    build:
+      context: ./Fedora
+    networks:
+      - net
+
+networks:
+  net:

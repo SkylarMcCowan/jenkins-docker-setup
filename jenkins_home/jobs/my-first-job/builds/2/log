@@ -1,0 +1,7 @@
+Started by user [8mha:////4Fn32A52fR0p1Fd8LFcyVIrX9+9KRocCckWCurQaNX6bAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgZh/dLi1CL94uzKnMSi3OTk/PLEPABg0dBnyAAAAA==[0mSkylar McCowan
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/my-first-job
+[my-first-job] $ /bin/sh -xe /tmp/jenkins16939265078678267267.sh
++ echo hello world
+hello world
+Finished: SUCCESS

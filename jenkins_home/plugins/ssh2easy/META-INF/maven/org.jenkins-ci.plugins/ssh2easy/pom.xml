@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.jenkins-ci.plugins</groupId>
+  <artifactId>ssh2easy</artifactId>
+  <version>1.6</version>
+  <packaging>hpi</packaging>
+  <name>SSH2 Easy Plugin</name>
+  <description>This plugin allows you to ssh2 remote server to execute linux commands, shell, sftp upload, download, etc.</description>
+  <url>https://github.com/jenkinsci/ssh2easy-plugin</url>
+  <inceptionYear>2016</inceptionYear>
+  <developers>
+    <developer>
+      <id>jerrycai</id>
+      <name>Jerry Cai</name>
+      <email>nwwh@qq.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/jenkinsci/ssh2easy-plugin.git</connection>
+    <developerConnection>scm:git:git@github.com:jenkinsci/ssh2easy-plugin.git</developerConnection>
+    <tag>ssh2easy-1.6</tag>
+    <url>https://github.com/jenkinsci/ssh2easy-plugin</url>
+  </scm>
+  <distributionManagement>
+    <repository>
+      <id>maven.jenkins-ci.org</id>
+      <url>https://repo.jenkins-ci.org/releases/</url>
+    </repository>
+    <snapshotRepository>
+      <id>maven.jenkins-ci.org</id>
+      <url>https://repo.jenkins-ci.org/snapshots/</url>
+    </snapshotRepository>
+  </distributionManagement>
+  <dependencies>
+    <dependency>
+      <groupId>org.jenkins-ci.plugins</groupId>
+      <artifactId>jsch</artifactId>
+      <version>0.2.8-65.v052c39de79b_2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jenkins-ci.plugins</groupId>
+      <artifactId>matrix-auth</artifactId>
+      <version>3.1.10</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jenkins-ci.plugins</groupId>
+      <artifactId>trilead-api</artifactId>
+      <version>2.84.v72119de229b_7</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.jenkins-ci.tools</groupId>
+        <artifactId>maven-hpi-plugin</artifactId>
+        <version>3.47</version>
+        <extensions>true</extensions>
+      </plugin>
+    </plugins>
+  </build>
+</project>

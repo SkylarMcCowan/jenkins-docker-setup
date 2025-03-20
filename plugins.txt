@@ -1,0 +1,11 @@
+ssh
+git:5.7.0
+workflow-aggregator:2.6
+credentials
+job-dsl
+blueocean:1.27.17
+configuration-as-code
+docker-plugin
+ansible
+ssh-agent
+docker-workflow:1.26

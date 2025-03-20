@@ -1,0 +1,9 @@
+Started by user [8mha:////4Fn32A52fR0p1Fd8LFcyVIrX9+9KRocCckWCurQaNX6bAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgZh/dLi1CL94uzKnMSi3OTk/PLEPABg0dBnyAAAAA==[0mSkylar McCowan
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/my-first-job
+[my-first-job] $ /bin/sh -xe /tmp/jenkins1941744480387289602.sh
++ /tmp/script.sh
+Hello,  
+The current time is: Thu Mar 20 04:40:52 UTC 2025 at home.
+Need anything else?
+Finished: SUCCESS
